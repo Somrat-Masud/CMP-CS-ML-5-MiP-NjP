@@ -18,6 +18,9 @@
           color: aliceblue;
            font-size: bold;
         }
+        h1{
+            color: black;
+        }
         .box{
             width: 350px;
             height: 500px;
@@ -60,8 +63,8 @@
     <h1>Snow White</h1>
     <p id="info">Lorem ipsum dolor sit amet consectetur,<br>
          adipisicing elit. Numquam, distinctio!</p>
-  <h4>Price: <span>50</span>$</h4>
-    <button  id="box-btn" onclick="handleClik(this)">ADD TO CART</button>
+  <h4>Price: <span>50</span> $ </h4>
+    <button onclick="handleClikBtn(this)"  id="box-btn">ADD TO CART</button>
 </div>
 
 <div class="box">
@@ -69,8 +72,8 @@
     <h1>Black White</h1>
     <p id="info">Lorem ipsum dolor sit amet consectetur,<br>
          adipisicing elit. Numquam, distinctio!</p>
-         <h4>Price: <span>50</span>$</h4>
-    <button  id="box-btn" onclick="handleClik(this)">ADD TO CART</button>
+         <h4>Price: <span>50</span> $ </h4>
+    <button onclick="handleClikBtn(this)" id="box-btn" >ADD TO CART</button>
 </div>
 
 <div class="box">
@@ -78,8 +81,21 @@
     <h1>Rose White</h1>
     <p id="info">Lorem ipsum dolor sit amet consectetur,<br>
          adipisicing elit. Numquam, distinctio!</p>
-         <h4>Price: <span>50</span>$</h4>
-    <button  id="box-btn" onclick="handleClik(this)">ADD TO CART</button>
+         <h4>Price: <span>50</span> $ </h4>
+    <button onclick="handleClikBtn(this)" id="box-btn">ADD TO CART</button>
+</div>
+
+
+<div class="box">
+   
+    <h1>Code : Hero</h1>
+    <div id="selected-itmes">
+
+    </div>
+    <p id="total">total:<span>00</span>0</p>
+         <h4>discount:<span>00</span></h4>
+    
+         <h1>Grand total:<span>00</span></h1>
 </div>
 
     <script src="index1.js"></script>
