@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+  <link rel="stylesheet" href="style.css" />
+
+    <style>
+        .body{
+            background-color: darkslategray;
+           text-align: center;
+        }
+        #Conseptual{
+            color: rgb(255, 85, 221);
+        }
+        .heading-1{
+          color: aliceblue;
+           font-size: bold;
+        }
+        .box{
+            width: 350px;
+            height: 500px;
+            margin-left: 10px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            color: aliceblue;
+            background-color: cadetblue;
+            margin: 10px;
+           
+        }
+        .img{
+            height: 300px;
+            width: 350px;
+            text-align: center;
+            background-color: rgb(216, 216, 223);
+            margin-bottom: -25px;
+            
+        }
+    #box-btn{
+        background-color: red;
+        color: white;  
+        cursor: pointer;
+        width: 138px;
+        height: 35px;
+       
+        
+    }
+    #box-btn:hover{
+        background-color: darkslategray;
+    }
+      
+    </style>
+</head>
+<body class="body">
+        <h1 class="heading-1">Conseptual Seesion
+             <span id="Conseptual">ML-5-Mo-27-Co-2</span> !!</h1>
+<div class="box">
+    <img class="img" src="images/pngwing 10.png" alt="">
+    <h1>Snow White</h1>
+    <p id="info">Lorem ipsum dolor sit amet consectetur,<br>
+         adipisicing elit. Numquam, distinctio!</p>
+  <h4>Price: <span>50</span>$</h4>
+    <button  id="box-btn" onclick="handleClik(this)">ADD TO CART</button>
+</div>
+
+<div class="box">
+    <img class="img" src="images/pngwing 6.png" alt="">
+    <h1>Black White</h1>
+    <p id="info">Lorem ipsum dolor sit amet consectetur,<br>
+         adipisicing elit. Numquam, distinctio!</p>
+         <h4>Price: <span>50</span>$</h4>
+    <button  id="box-btn" onclick="handleClik(this)">ADD TO CART</button>
+</div>
+
+<div class="box">
+    <img class="img" src="images/Rectangle 5.png" alt="">
+    <h1>Rose White</h1>
+    <p id="info">Lorem ipsum dolor sit amet consectetur,<br>
+         adipisicing elit. Numquam, distinctio!</p>
+         <h4>Price: <span>50</span>$</h4>
+    <button  id="box-btn" onclick="handleClik(this)">ADD TO CART</button>
+</div>
+
+    <script src="index1.js"></script>
+</body>
+</html>
